@@ -1,0 +1,14 @@
+.meal-item-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+.meal-item-desc {
+  font-style: italic;
+}
+.meal-item-price {
+  font-weight: bold;
+  color: coral;
+}

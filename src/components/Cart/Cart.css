@@ -1,0 +1,36 @@
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 20px;
+}
+.cart-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem;
+}
+.cart-btn-close {
+  background-color: white;
+  border: 1px solid chocolate;
+  color: chocolate;
+  padding: 0.25rem 1rem;
+  border-radius: 14px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.cart-btn-close:hover {
+  background-color: chocolate;
+  border: 1px solid white;
+  color: white;
+}
+.cart-btn-order {
+  background-color: chocolate;
+  border: 1px solid chocolate;
+  color: white;
+  padding: 0.25rem 1rem;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.cart-btn-order:hover {
+  opacity: 75%;
+}

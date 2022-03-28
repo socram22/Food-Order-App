@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  /* color: var(--text-color); */
+}
+
+h1 {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+button {
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+main {
+  width: 70%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
