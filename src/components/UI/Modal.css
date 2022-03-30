@@ -17,3 +17,9 @@
   border-radius: 14px;
   width: 50%;
 }
+@media screen and (max-width: 480px) {
+  .modal {
+    width: 90%;
+    left: 5%;
+  }
+}

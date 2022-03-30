@@ -43,3 +43,11 @@
   padding: 0.25rem 0.5rem;
   margin-left: 15px; */
 }
+@media screen and (max-width: 840px) {
+  .cart-item-li-actions {
+    height: 80px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+}
