@@ -31,7 +31,7 @@ const HeaderCartButton = ({ onClick }) => {
       <span>
         <Carticon />
       </span>
-      <span>Your Cart</span>
+      <span className="text-cart">Your Cart</span>
       <span className="cart-number">{numberOfCartItems}</span>
     </button>
   );

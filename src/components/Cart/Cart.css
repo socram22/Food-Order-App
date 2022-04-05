@@ -20,7 +20,7 @@
 }
 .cart-btn-close:hover {
   background-color: chocolate;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   color: white;
 }
 .cart-btn-order {
@@ -32,5 +32,6 @@
   cursor: pointer;
 }
 .cart-btn-order:hover {
-  opacity: 75%;
+  background-color: rgb(206, 137, 87);
+  /* border: 1px solid rgb(206, 137, 87); */
 }

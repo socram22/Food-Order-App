@@ -12,5 +12,6 @@
   font-weight: bold;
 }
 .meal-item-form-button:hover {
-  opacity: 75%;
+  background-color: rgb(250, 134, 92);
+  /* border: 1px solid rgb(250, 134, 92); */
 }

@@ -23,7 +23,7 @@ const Cart = ({ onClose }) => {
         margin: "0",
         padding: "0",
         maxHeight: "20rem",
-        overflow: "scroll",
+        overflowY: "scroll",
       }}
     >
       {/* {[{ id: "c1", name: "Sushi", amount: 2, price: 12.99 }].map((item) => (
