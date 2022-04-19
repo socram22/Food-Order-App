@@ -16,6 +16,9 @@ const Cart = ({ onClose }) => {
   const cartItemAddHandler = (item) => {
     cartCtx.addItem({ ...item, amount: 1 });
   };
+  const clearCartHandler = () => {
+    cartCtx.clearCart();
+  };
 
   const cartItems = (
     <ul
@@ -49,10 +52,27 @@ const Cart = ({ onClose }) => {
         <span>{totalAmount}</span>
       </div>
       <div className="cart-actions">
-        <button className="cart-btn-close" onClick={onClose}>
-          Close
-        </button>
-        {hasItems && <button className="cart-btn-order">Order</button>}
+        <div
+          style={{
+            display: "flex",
+            width: "100%",
+            justifyContent: "space-between",
+          }}
+        >
+          <div>
+            {hasItems && (
+              <button className="cart-btn-close" onClick={clearCartHandler}>
+                Clear
+              </button>
+            )}
+          </div>
+          <div>
+            <button className="cart-btn-close" onClick={onClose}>
+              Close
+            </button>
+            {hasItems && <button className="cart-btn-order">Order</button>}
+          </div>
+        </div>
       </div>
     </Modal>
   );

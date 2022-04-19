@@ -3,6 +3,7 @@
   justify-content: space-between;
   font-weight: bold;
   font-size: 20px;
+  margin-top: 1rem;
 }
 .cart-actions {
   display: flex;
@@ -13,8 +14,8 @@
   background-color: white;
   border: 1px solid chocolate;
   color: chocolate;
-  padding: 0.25rem 1rem;
-  border-radius: 14px;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
   margin-right: 1rem;
   cursor: pointer;
 }
@@ -27,8 +28,8 @@
   background-color: chocolate;
   border: 1px solid chocolate;
   color: white;
-  padding: 0.25rem 1rem;
-  border-radius: 14px;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
   cursor: pointer;
 }
 .cart-btn-order:hover {
