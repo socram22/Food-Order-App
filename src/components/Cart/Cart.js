@@ -19,6 +19,9 @@ const Cart = ({ onClose }) => {
   const clearCartHandler = () => {
     cartCtx.clearCart();
   };
+  const removeAllHandler = (id) => {
+    cartCtx.removeAll(id);
+  };
 
   const cartItems = (
     <ul
@@ -40,6 +43,7 @@ const Cart = ({ onClose }) => {
           price={item.price}
           onRemove={cartItemRemoveHandler.bind(null, item.id)}
           onAdd={cartItemAddHandler.bind(null, item)}
+          onRemoveAll={removeAllHandler.bind(null, item.id)}
         />
       ))}
     </ul>

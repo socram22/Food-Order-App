@@ -5,11 +5,18 @@ const CartItem = (props) => {
   const price = `$${props.price.toFixed(2)}`;
   return (
     <li className="cart-item-li">
-      <div>
-        <h2>{props.name}</h2>
-        <div className="cart-item-li-summary">
-          <span className="cart-item-li-price">{price}</span>
-          <span className="cart-item-li-amount">x {props.amount}</span>
+      <div style={{ display: "flex", alignItems: "center" }}>
+        <div>
+          <button className="delete-all" onClick={props.onRemoveAll}>
+            X
+          </button>
+        </div>
+        <div>
+          <h2>{props.name}</h2>
+          <div className="cart-item-li-summary">
+            <span className="cart-item-li-price">{price}</span>
+            <span className="cart-item-li-amount">x {props.amount}</span>
+          </div>
         </div>
       </div>
       <div className="cart-item-li-actions">

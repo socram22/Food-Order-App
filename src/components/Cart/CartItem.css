@@ -43,11 +43,36 @@
   padding: 0.25rem 0.5rem;
   margin-left: 15px; */
 }
+.delete-all {
+  background-color: white;
+  border: none;
+  color: #aaa;
+  width: 1.5rem;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 0.25rem 0.5rem;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.delete-all:hover {
+  color: black;
+}
 @media screen and (max-width: 840px) {
   .cart-item-li-actions {
     height: 80px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
+  }
+  .cart-item-li-summary {
+    flex-direction: column;
+    width: 100px;
+  }
+  .cart-item-li h2 {
+    text-align: center;
+  }
+  .delete-all {
+    margin: 0;
   }
 }
